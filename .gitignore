@@ -1,3 +1,7 @@
+/out/
+*.iml
+.idea/
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
