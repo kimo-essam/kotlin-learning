@@ -16,6 +16,6 @@ fun triagePatient(isBreathing: Boolean, hasPulse: Boolean): String =
 fun main(){
     println(triagePatient(isBreathing = true, hasPulse = true))
     println(triagePatient(isBreathing = true, hasPulse = false))
-    println(triagePatient(false, hasPulse = true))
+    println(triagePatient(isBreathing = false, hasPulse = true))
     println(triagePatient(isBreathing = false, hasPulse = false))
 }
